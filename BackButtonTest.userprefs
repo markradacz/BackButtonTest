@@ -1,0 +1,35 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BackButtonTest/ThirdDlgViewController.cs">
+    <Files>
+      <File FileName="BackButtonTest/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="BackButtonTest/Main.cs" Line="1" Column="1" />
+      <File FileName="BackButtonTest/BackButtonTestViewController.cs" Line="1" Column="1" />
+      <File FileName="BackButtonTest/FirstDlgViewController.cs" Line="1" Column="1" />
+      <File FileName="BackButtonTest/SecondDlgViewController.cs" Line="1" Column="1" />
+      <File FileName="BackButtonTest/ThirdDlgViewController.cs" Line="15" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="BackButtonTest" expanded="True">
+            <Node name="References" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

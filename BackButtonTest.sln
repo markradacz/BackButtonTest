@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackButtonTest", "BackButtonTest\BackButtonTest.csproj", "{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+		AdHoc|iPhone = AdHoc|iPhone
+		AdHoc|iPhoneSimulator = AdHoc|iPhoneSimulator
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.AdHoc|iPhone.ActiveCfg = Debug|iPhone
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.AdHoc|iPhone.Build.0 = Debug|iPhone
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.AdHoc|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.AdHoc|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.AppStore|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.AppStore|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.Release|iPhone.Build.0 = Release|iPhone
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C06A81F7-1985-4CB6-B6BA-498E9A9FEB4E}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BackButtonTest\BackButtonTest.csproj
+	EndGlobalSection
+EndGlobal
