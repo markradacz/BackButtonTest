@@ -95,11 +95,15 @@
     <Compile Include="FirstDlgViewController.cs" />
     <Compile Include="SecondDlgViewController.cs" />
     <Compile Include="ThirdDlgViewController.cs" />
+    <Compile Include="FourthDlgViewController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <BundleResource Include="29_icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="FifthDlgViewController.xib" />
   </ItemGroup>
 </Project>

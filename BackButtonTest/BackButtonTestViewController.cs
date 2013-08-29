@@ -6,7 +6,7 @@ namespace BackButtonTest
 {
 	public class BackButtonTestViewController : DialogViewController
 	{
-		StringElement FirstDlgBtn, CustomDlgBtn, ImageDlgBtn;
+		StringElement FirstDlgBtn, CustomDlgBtn, ImageDlgBtn, FourthDlgBtn;
 
 		public BackButtonTestViewController () : base (null, true)
 		{
@@ -19,6 +19,7 @@ namespace BackButtonTest
 			FirstDlgBtn	  	= new StringElement("Regular 'Back'", OnFirstDlgBtn) { Alignment = UITextAlignment.Center };
 			CustomDlgBtn 	= new StringElement("Custom 'Back' Text", OnCustomDlgBtn) { Alignment = UITextAlignment.Center };
 			ImageDlgBtn	  	= new StringElement("Image 'Back' Button", OnImageDlgBtn) { Alignment = UITextAlignment.Center };
+			FourthDlgBtn	= new StringElement("Fourth 'Back' Button", OnFourthDlgBtn) { Alignment = UITextAlignment.Center };
 
 			var root = new RootElement ("Back Button Test")
 			{
@@ -37,6 +38,11 @@ namespace BackButtonTest
 				{ 
 					ImageDlgBtn
 				},
+				new Section("")
+				{ 
+					FourthDlgBtn
+				},
+
 			};
 			Root = root;
 
@@ -72,6 +78,21 @@ namespace BackButtonTest
 			});
 
 			NavigationController.PushViewController(firstDlg, true);
+		}
+
+
+		private void OnFourthDlgBtn()
+		{
+			this.Title = "Back";
+			var dlg = new FourthDlgViewController ();
+			var btn = new UIBarButtonItem(UIImage.FromFile("29_icon.png"), UIBarButtonItemStyle.Plain, (o,e) => {
+				//do some stuff
+				NavigationController.PopViewControllerAnimated(true);
+			});
+
+			dlg.NavigationItem.LeftBarButtonItem = btn;
+
+			NavigationController.PushViewController(dlg, true);
 		}
 
 		private void DisplayAlert(string msg)

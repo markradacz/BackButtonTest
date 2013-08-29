@@ -1,3 +1,6 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
 using System.Drawing;
 
 using MonoTouch.Dialog;
@@ -15,8 +18,12 @@ namespace BackButtonTest
 		public override void LoadView ()
 		{	
 			base.LoadView ();
+//
+//			NavigationItem.baLeftBarButtonItem.Clicked  += (object sender, EventArgs e) => {
+//				OnBackBtn();
+//			};
 
-			NavigationItem.SetLeftBarButtonItem(new UIBarButtonItem("Back", UIBarButtonItemStyle.Plain, delegate { OnBackBtn();} ), true);
+			//NavigationItem.SetLeftBarButtonItem(new UIBarButtonItem("Back", UIBarButtonItemStyle.Plain, delegate { OnBackBtn();} ), true);
 
 			var label = new UILabel() {
 				Frame = new RectangleF(0, 0, 300, 20),
